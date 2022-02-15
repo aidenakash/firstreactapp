@@ -1,11 +1,16 @@
-import React from "react";
-function app(){
-    return(
-        <div>
-<h1>react app</h1>
-<h1>react application</h1>
-<h2>rating 4.5</h2>
-</div>
+import React from 'react'
+import pcatalog from './components/productcatalog';
+function App(props){
+        return(
+     <pcatalog 
+     obj={{
+        prname:"samsung",
+        imgsrc:"https://m.media-amazon.com/images/I/811lrGbXwIL._AC_UY218_.jpg",
+        rating:" Rating 4.5"
+        }} ></pcatalog>
     )
-}
-export default app;
+    }
+
+
+
+export default App;
