@@ -23,7 +23,7 @@ this.setState({msg:event.target.value})
                 <h2>from:{this.state.username}</h2>
 <form>
     <input type="text"placeholder="enter your name"onChange={(event)=>{this.updateFields(event,"username")}}></input>
-    <input type="text"placeholder="enter your message"onChange={(event)=>{this.updateFields(event,"msg")}}></input>
+    <input type="text"placeholder="enter your mess"onChange={(event)=>{this.updateFields(event,"msg")}}></input>
 </form>
 </div>
         )
