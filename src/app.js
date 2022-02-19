@@ -1,4 +1,7 @@
 import React from 'react'
+import Newsapi from './components/newsapp';
+
+//import Newsapi from './components/newsapp';
 //import Sign from './components/signin';
 //import {Catalog} from './components/pcatalog';
 //import ClassComp from './components/classcomponentEg';
@@ -6,11 +9,11 @@ import React from 'react'
 //import Counter from './components/countcard';
 //import Todo from './components/todoapp';
 //import Lifecycle from './components/lifecyclemethod';
-import Todoapi from './components/TodoApi';
+//import Todoapi from './components/TodoApi';
 function App(props){
         return(
                 <div>
-          <Todoapi></Todoapi>
+          <Newsapi></Newsapi>
                 </div>
             
         )
