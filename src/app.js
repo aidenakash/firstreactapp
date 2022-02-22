@@ -1,6 +1,12 @@
 import React from 'react'
-import Newsapi from './components/newsapp';
-
+import Weather from './components/watherapi';
+//import Image from './components/imagesearchhooks';
+//import Hookslifecycle from './components/lifecyclehooks';
+//import Counter from './components/counterhooks';
+//import Chatapp from './components/chatthooks';
+//import Hooks from './components/hookseg';
+//import Newsapi from './components/newsapp';
+//import Unsplash from './components/unsplashapi';
 //import Newsapi from './components/newsapp';
 //import Sign from './components/signin';
 //import {Catalog} from './components/pcatalog';
@@ -13,7 +19,8 @@ import Newsapi from './components/newsapp';
 function App(props){
         return(
                 <div>
-          <Newsapi></Newsapi>
+          <Weather/>
+          
                 </div>
             
         )

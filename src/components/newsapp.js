@@ -9,10 +9,11 @@ class NewsApp extends React.Component{
         }
     }
     callNewsAPI(newsip){
-        axios.get("https://hn.algolia.com/api/v1/search?query="+newsip).
-        then((res)=>this.setState({news:res.data.hits})).catch((err)=>console.log(err))
+        axios.get("https://hn.algolia.com/api/v1/search?query="+newsip)
+        .then((res)=>this.setState({news:res.data.hits}))
+        .catch((err)=>console.log(err))
     }
-   
+  
     setSearch=(event)=>{
         this.setState({search:event.target.value})
     }
