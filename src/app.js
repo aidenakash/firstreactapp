@@ -1,5 +1,7 @@
 import React from 'react'
-import Weather from './components/watherapi';
+
+//import Counter from './components/counterhooks';
+//import Weather from './components/watherapi';
 //import Image from './components/imagesearchhooks';
 //import Hookslifecycle from './components/lifecyclehooks';
 //import Counter from './components/counterhooks';
@@ -19,7 +21,8 @@ import Weather from './components/watherapi';
 function App(props){
         return(
                 <div>
-          <Weather/>
+          
+          
           
                 </div>
             

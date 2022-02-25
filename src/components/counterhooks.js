@@ -6,7 +6,7 @@ const Counter=()=>
     const[count,setcount]=useState(0)
 const increment=()=>
 {
-    if(count<5)
+    if(count<10)
 setcount(count+1)
 }
 
